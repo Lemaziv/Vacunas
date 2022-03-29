@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Foto_Registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto_registro" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información general" />
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Nombre*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <EditText
+                android:id="@+id/ApellidoP"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Apellido Paterno*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <EditText
+                android:id="@+id/ApellidoM"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Apellido Materno*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Sexo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Sexo*"
+                android:inputType=""
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <EditText
+                android:id="@+id/FechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Fecha de Nacimiento: (00/00/0000)*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información de tu Nacimiento" />
+
+            <EditText
+                android:id="@+id/Peso"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Peso al nacer (0.0kg)*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <EditText
+                android:id="@+id/Edad"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Edad gestal*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Sangre"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Tipo de sangre*"
+                android:inputType=""
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información de inicio de sesión" />
+
+            <EditText
+                android:id="@+id/CorreoRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Correo electronico*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <EditText
+                android:id="@+id/ContraseñaRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Contraseña*"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+            <Button
+                android:id="@+id/RegistrarseFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="REGISTRARSE" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
