@@ -13,7 +13,7 @@
         android:padding="18dp">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/BackButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
@@ -39,7 +39,7 @@
             android:id="@+id/registrarseFormulario"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="REGISTRARSE" />
+            android:text="RECUPERAR" />
 
     </LinearLayout>
 </LinearLayout>

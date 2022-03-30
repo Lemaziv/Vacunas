@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Vacunacion</string>
+    <string name="title_activity_menu_principal">Menu_Principal</string>
+    <string name="title_info">Información</string>
+    <string name="title_vacunas">Vacunas</string>
+    <string name="title_noticias">Noticias</string>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="18dp"
     tools:context=".PreRegistro">
 
     <LinearLayout
@@ -13,7 +14,7 @@
         android:padding="18dp">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/BackButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
@@ -38,7 +39,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="300dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
             app:srcCompat="@drawable/preregistro" />
@@ -47,7 +48,7 @@
             android:id="@+id/registrarseFormulario"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="REGISTRARSE" />
+            android:text="COMENZAR" />
 
     </LinearLayout>
 </LinearLayout>

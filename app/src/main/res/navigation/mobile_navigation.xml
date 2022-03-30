@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_vacunas">
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.clase.vacunacion.ui.informacion.InformacionFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/navigation_vacunas"
+        android:name="com.clase.vacunacion.ui.vacunas.VacunasFragment"
+        android:label="@string/title_vacunas"
+        tools:layout="@layout/fragment_vacunas" />
+
+    <fragment
+        android:id="@+id/navigation_noticias"
+        android:name="com.clase.vacunacion.ui.noticias.NoticiasFragment"
+        android:label="@string/title_noticias"
+        tools:layout="@layout/fragment_noticias" />
+</navigation>
