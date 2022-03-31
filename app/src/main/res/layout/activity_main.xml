@@ -74,7 +74,7 @@
             android:id="@+id/ButtonRegistrarse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
+            android:layout_marginLeft="110dp"
             android:gravity="center"
             android:text="Registrarse" />
 
