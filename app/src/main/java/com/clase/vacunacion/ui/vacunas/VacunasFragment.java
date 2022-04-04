@@ -24,8 +24,6 @@ public class VacunasFragment extends Fragment {
         binding = FragmentVacunasBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textVacunas;
-        vacunasViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
