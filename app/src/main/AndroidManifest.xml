@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vacunacion">
         <activity
+            android:name=".publicacion"
+            android:exported="false" />
+        <activity
             android:name=".Menu_Principal"
-            android:exported="false"
-            android:label="@string/title_activity_menu_principal" />
+            android:exported="true"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/Theme.Vacunacion.NoActionBar" />
         <activity
             android:name=".RecuperarCuenta"
             android:exported="false" />

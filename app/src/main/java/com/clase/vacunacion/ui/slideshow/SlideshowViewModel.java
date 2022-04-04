@@ -1,16 +1,16 @@
-package com.clase.vacunacion.ui.informacion;
+package com.clase.vacunacion.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class InformacionViewModel extends ViewModel {
+public class SlideshowViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public InformacionViewModel() {
+    public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Este es el fragment de información");
+        mText.setValue("This is slideshow fragment");
     }
 
     public LiveData<String> getText() {

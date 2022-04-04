@@ -3,16 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/activity_main.xml" value="0.4491525423728814" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable-v24/ic_menu_camera.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable-v24/ic_menu_gallery.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable-v24/ic_menu_slideshow.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_baseline_face_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_baseline_newspaper_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_close.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_launcher_background.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_outline_edit_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/drawable/ic_outline_vaccines_24.xml" value="0.286" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/activity_main.xml" value="0.36343115124153497" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/app_bar_main.xml" value="0.3068552774755169" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/content_main.xml" value="0.3007900677200903" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/drawer_main.xml" value="0.478713768115942" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_gallery.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_home.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_info.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_noticias.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_slideshow.xml" value="0.478713768115942" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/fragment_vacunas.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/menu_principal.xml" value="0.25" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/nav_header_main.xml" value="0.478713768115942" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/pre_registro.xml" value="0.4491525423728814" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/publicacion.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/recuperar_cuenta.xml" value="0.4491525423728814" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/registro.xml" value="0.384282624369142" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/layout/registro_exitoso.xml" value="0.478713768115942" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/menu/activity_main_drawer.xml" value="0.5166666666666667" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5166666666666667" />
+        <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/menu/main.xml" value="0.5166666666666667" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.254" />
         <entry key="..\:/Users/vitt9/Escritorio/Universidad/6to Semestre/Programacion de Dispositivos Moviles/Vacunacion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.254" />
       </map>

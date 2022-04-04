@@ -1,4 +1,4 @@
-package com.clase.vacunacion.ui.noticias;
+package com.clase.vacunacion.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,21 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.clase.vacunacion.databinding.FragmentNoticiasBinding;
+import com.clase.vacunacion.databinding.FragmentHomeBinding;
 
-public class NoticiasFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    private FragmentNoticiasBinding binding;
+    private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NoticiasViewModel noticiasViewModel =
-                new ViewModelProvider(this).get(NoticiasViewModel.class);
+        HomeViewModel homeViewModel =
+                new ViewModelProvider(this).get(HomeViewModel.class);
 
-        binding = FragmentNoticiasBinding.inflate(inflater, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-
+        final TextView textView = binding.textHome;
+        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

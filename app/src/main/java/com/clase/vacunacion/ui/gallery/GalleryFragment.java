@@ -1,4 +1,4 @@
-package com.clase.vacunacion.ui.noticias;
+package com.clase.vacunacion.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,21 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.clase.vacunacion.databinding.FragmentNoticiasBinding;
+import com.clase.vacunacion.databinding.FragmentGalleryBinding;
 
-public class NoticiasFragment extends Fragment {
+public class GalleryFragment extends Fragment {
 
-    private FragmentNoticiasBinding binding;
+    private FragmentGalleryBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NoticiasViewModel noticiasViewModel =
-                new ViewModelProvider(this).get(NoticiasViewModel.class);
+        GalleryViewModel galleryViewModel =
+                new ViewModelProvider(this).get(GalleryViewModel.class);
 
-        binding = FragmentNoticiasBinding.inflate(inflater, container, false);
+        binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-
+        final TextView textView = binding.textGallery;
+        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
